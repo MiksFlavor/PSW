@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- for phone metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- site metas -->
+    <title>PSW VIDEOS</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="loader.css">
+    <!-- header thing css -->
+    <link rel="stylesheet" href="videocss.css">
+
+</head>
+<!-- body -->
+
+<body>
+    
+    <!--For future use nalang tong loader/loading pero why not today?-->
+        <div class="preloader">
+            <div id="preloader"></div>
+        </div>
+    <!-- end loader -->
+    <div class="hero2">
+    <div class="topnav">
+        <img src="pics/mikozsen.jpg" class="logo2">
+        <a href="index.html#footer">CONTACT ME</a>
+        <a href="about.html">ABOUT</a>
+        <a class="active" href="videos.html">VIDEOS</a>
+        <a href="index.html">HOME</a>
+      </div>
+    </div>    
+  
+    <section id="video">
+    <div class="midpart">
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/fJje8GEHrsU?si=FUVUTp-VgH6X4i_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/xKLRGU6JdQQ?si=ub9r4PjAGyMz9cn_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/ggvWXxDXnfQ?si=QlMN-o-o0FE31mr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/TRmdXDH9b1s?si=NS9JROwZjWCLnFH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/iQ9iHKeRY-w?si=a-5FGI5Y7JJLfr4p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/WXfjgD8sCBw?si=zHQj2XAr7j3drDfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/5fUdZkqKPt0?si=Wuu8JQz3IP07BnzW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/kAyTAy93vBk?si=8qXyTokD3p6go7am" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <!--<video controls>
+            <source src="Newmazda.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>-->
+    </div>
+  </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class=" col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+                        </div>
+                        <div class="col-md-12">
+                        <ul class="lik">
+                            <li > <a href="index.html">Home</a></li>
+                            <li> <a href="about.html">About</a></li>
+                            <li class="active"> <a href="videos.html">Videos</a></li>
+                            <li> <a href="contact.html">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container2">
+                    <p>© All Rights Reserved. Developed by <a href="https://www.youtube.com/watch?v=6ONRf7h3Mdk"> Ralph Miko Manangkil</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    </div>
+    </div>
+    <!-- Javascript files-->
+    <script>
+
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+
+    </script>
+
+<script>
+    // active class to the current link based on the page
+    var currentLocation = window.location.href;
+
+    var links = document.querySelectorAll('topnav a');
+    links.forEach(function(link) {
+        if (link.href === currentLocation) {
+            link.classList.add('active');
+        }
+    });
+</script>
+
+
+</body>
+</html>

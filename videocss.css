@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none;
+}
+
+.hero2{
+    margin-bottom: 120px;
+    width: 100%;
+    background-color: #191918;
+    position: relative;
+    padding: 100 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topnav {
+    background-color: #191918;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+.topnav a.active {
+    background-color: orangered;
+    color: white;
+}
+
+  /* Change the color of links on hover */
+.topnav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav .logo2 {
+    width: 80px;
+}
+
+.topnav {
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+video {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+
+.midpart {
+    align-items: center;
+    text-align: center;
+}
+
+/*-----------footer things dito--------------*/
+.container2 {
+	width: auto;
+	margin: 0 auto;
+    text-align: center;
+    background-color:white ;
+}
+
+/*----------------------FOR RESPONSIVENESS AGAIN-------------------*/
+@media screen and (max-width: 600px) {
+    .hero2{
+        margin-bottom: 200px;
+        width: 100%;
+        background-color: #191918;
+        position: relative;
+        padding: 100 5%;
+        display: inline-table;
+        align-items: center;
+        justify-content: center;
+    }
+}
